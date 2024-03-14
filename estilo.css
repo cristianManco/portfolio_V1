@@ -308,7 +308,13 @@ h2{
     width: 0%;
     animation: 2s javascript forwards;
 }
-
+form{
+    color: #53e7ca;
+}
+form input{
+    color: #55ea9a;
+   
+}
 input{
     color: #55ea9a;
 }
