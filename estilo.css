@@ -308,6 +308,11 @@ h2{
     width: 0%;
     animation: 2s javascript forwards;
 }
+
+input{
+    color: #55ea9a;
+}
+
 @keyframes javascript {
     0%{width: 0%;}
     100%{width: 75%;}
