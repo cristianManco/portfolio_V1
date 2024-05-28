@@ -25,12 +25,17 @@ function efectoHabilidades(){
         habilidades[1].classList.add("htmlcss");
         habilidades[2].classList.add("photoshop");
         habilidades[3].classList.add("wordpress");
-        habilidades[4].classList.add("drupal");
-        habilidades[5].classList.add("comunicacion");
-        habilidades[6].classList.add("trabajo");
-        habilidades[7].classList.add("creatividad");
-        habilidades[8].classList.add("dedicacion");
+        habilidades[4].classList.add("wordpress");
+        habilidades[5].classList.add("proyect");
+        habilidades[6].classList.add("proyect");
+        habilidades[7].classList.add("proyect");
+        habilidades[8].classList.add("proyect");
         habilidades[9].classList.add("proyect");
+        habilidades[10].classList.add("proyect");
+        habilidades[11].classList.add("proyect");
+        habilidades[12].classList.add("proyect");
+        habilidades[13].classList.add("proyect");
+        habilidades[14].classList.add("proyect");
     }
 }
 
@@ -39,3 +44,19 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 } 
+
+
+function toggleTheme() {
+    const body = document.body;
+    const themeIcon = document.getElementById('themeIcon');
+
+    body.classList.toggle('light-mode');
+
+    if (body.classList.contains('light-mode')) {
+        themeIcon.classList.remove('fa-sun');
+        themeIcon.classList.add('fa-moon');
+    } else {
+        themeIcon.classList.remove('fa-moon');
+        themeIcon.classList.add('fa-sun');
+    }
+}
