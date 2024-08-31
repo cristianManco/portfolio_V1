@@ -555,6 +555,20 @@ h3{
 h4{
     color: #91003c;
 }
+
+#proyect{
+    border-radius: 5px !important;
+} 
+
+#proyect img{
+    border-radius: 5px !important;
+} 
+
+#proyect .overlay{
+    border-radius: 5px !important;
+} 
+
+
 .portfolio .proyecto .overlay{
     position: absolute;
     top: 0;
@@ -563,6 +577,7 @@ h4{
     text-align: center;
     background: linear-gradient(rgba(1, 27, 20, 0.743), rgba(72, 1, 50, 0.8));
     display: flex;
+    color: #30dab8;
     flex-direction: column;
     justify-content: center;
     transition: 1s;
@@ -661,7 +676,7 @@ h4{
     top: 40%;
     background-color: #04080b;
     padding: 20px;
-    max-swidth: 350px;
+    max-width: 350px;
     left: 50%;
     transform: translate(-50%, -50%);
 }

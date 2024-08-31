@@ -1,10 +1,12 @@
 /* Estilos generales para el modo claro */
 body.light-mode {
-    background: linear-gradient(to top, white, lightgrey, whitesmoke);
+    background: linear-gradient(to top, rgb(20, 114, 133), rgb(206, 192, 192), rgba(205, 202, 202, 0.786));
+    filter: brightness(0.9);
+
 }
 
 .light-mode .contenedor-header {
-    background: rgba(255, 255, 255, 0.85);
+    background: rgba(4, 6, 32, 0.7);
 }
 
 .light-mode .contenedor-header header .logo {
@@ -20,13 +22,21 @@ body.light-mode {
 }
 
 .light-mode .inicio {
-    background: linear-gradient(to top, rgba(255, 255, 255, 0.95), rgba(240, 240, 240, 0.75)),
+    background: linear-gradient(to top, rgba(6, 44, 56, 0.95), rgba(26, 88, 112, 0.75)),
     url(./codigo.jpg);
     color: #000;
 }
 
+/* #proyect{
+    border-radius: 2rem !important;
+} 
+
+#proyect img{
+    border-radius: 2rem !important;
+} */
+
 .light-mode .inicio .contenido-banner {
-    background-color: #fff;
+    background-color: #a4a7bf;
     color: #000;
 }
 
@@ -98,3 +108,23 @@ body.light-mode {
 }
 
 
+.img_Card{
+    src:url('./img/Imagen de WhatsApp 2024-05-27 a las 18.55.05_299728ea.jpg')
+ }
+ 
+.contenido-seccion .fila .col .item{
+    background-color: #e2c4c4;
+
+ }
+
+ #formulario{
+    background-color: #8b8a8d;
+ }
+
+ #location div{
+    background-color: #75688e;
+ }
+
+.contenedor-intereses .interes{
+    background-color: #b594a5;
+ }

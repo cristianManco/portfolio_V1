@@ -46,17 +46,33 @@ window.onscroll = function(){
 } 
 
 
+// function toggleTheme() {
+//     const body = document.body;
+//     const themeIcon = document.getElementById('themeIcon');
+
+//     body.classList.toggle('light-mode');
+
+//     if (body.classList.contains('light-mode')) {
+//         themeIcon.classList.remove('fa-sun');
+//         themeIcon.classList.add('fa-moon');
+//     } else {
+//         themeIcon.classList.remove('fa-moon');
+//         themeIcon.classList.add('fa-sun');
+//     }
+// }
+
 function toggleTheme() {
     const body = document.body;
     const themeIcon = document.getElementById('themeIcon');
+    const imgElement = document.querySelector('.img_Card');
 
     body.classList.toggle('light-mode');
 
-    if (body.classList.contains('light-mode')) {
-        themeIcon.classList.remove('fa-sun');
-        themeIcon.classList.add('fa-moon');
-    } else {
+    if (!body.classList.contains('light-mode')) {
         themeIcon.classList.remove('fa-moon');
         themeIcon.classList.add('fa-sun');
+    } else {
+        themeIcon.classList.remove('fa-sun');
+        themeIcon.classList.add('fa-moon');
     }
 }
